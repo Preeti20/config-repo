@@ -6,4 +6,6 @@ termsConditionsVersion: 'https://healthy.kaiserpermanente.org/termsconditions.ve
 findDoctor:
     CO: '<URL>'
     HI: '<URL>'
-    
+findDoctor1:
+    CO: '<URL>'
+    HI: '<URL>'
