@@ -1,9 +1,8 @@
-findDoctor1:
-    CO: 'http://co.com'
-    HI: 'http://hi.com'
-list:
-    - t
-    - t1
-t:
-    - {x: {k1: v1}}
+aemUrls:
+    pharmacyConfig: ' /bin/kporg/service/common/labels.en.Colorado.mobile-pharmacy-configuration.json'
+    pharmacyContent: ' /bin/kporg/service/common/labels.en.Colorado.mobile-pharmacy-content.json'
+    mobileBillPayHelp: /content-fragments/documents/mobile/medical-bills/help
+    mobileBillPaytermCondition: /content-fragments/documents/mobile/medical-bills/termsconditons
+    termsConditionsVersion: 'https://healthy.kaiserpermanente.org/termsconditions.version.json'
+    findDoctor: {CO: '<URL>', HI: '<URL>'}
     
