@@ -1,3 +1,4 @@
-testURL1: 'http://yahoo.com'
-testURL2: 'http://gmail.com'
-testURL3:'http://pwc.com'
+--- 
+testURL1: "http://yahoo.com"
+testURL2: "http://gmail.com"
+testURL3: "http://pwc.com"
