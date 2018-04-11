@@ -1,8 +1,9 @@
-aemUrls:
-    pharmacyConfig: ' /bin/kporg/service/common/labels.en.Colorado.mobile-pharmacy-configuration.json'
-    pharmacyContent: ' /bin/kporg/service/common/labels.en.Colorado.mobile-pharmacy-content.json'
-    mobileBillPayHelp: /content-fragments/documents/mobile/medical-bills/help
-    mobileBillPaytermCondition: /content-fragments/documents/mobile/medical-bills/termsconditons
-    termsConditionsVersion: 'https://healthy.kaiserpermanente.org/termsconditions.version.json'
-    findDoctor: {CO: '<URL>', HI: '<URL>'}
+pharmacyConfig: ' /bin/kporg/service/common/labels.en.Colorado.mobile-pharmacy-configuration.json'
+pharmacyContent: ' /bin/kporg/service/common/labels.en.Colorado.mobile-pharmacy-content.json'
+mobileBillPayHelp: /content-fragments/documents/mobile/medical-bills/help
+mobileBillPaytermCondition: /content-fragments/documents/mobile/medical-bills/termsconditons
+termsConditionsVersion: 'https://healthy.kaiserpermanente.org/termsconditions.version.json'
+findDoctor:
+    CO: '<URL>'
+    HI: '<URL>'
     
