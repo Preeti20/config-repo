@@ -1,11 +1,67 @@
-pharmacyConfig: ' /bin/kporg/service/common/labels.en.Colorado.mobile-pharmacy-configuration.json'
-pharmacyContent: ' /bin/kporg/service/common/labels.en.Colorado.mobile-pharmacy-content.json'
-mobileBillPayHelp: /content-fragments/documents/mobile/medical-bills/help
-mobileBillPaytermCondition: /content-fragments/documents/mobile/medical-bills/termsconditons
-termsConditionsVersion: 'https://healthy.kaiserpermanente.org/termsconditions.version.json'
-findDoctor:
-    CO: '<URL>'
-    HI: '<URL>'
-findDoctor1:
-    CO: '<URL>'
-    HI: '<URL>'
+PharmacyCenter:
+    url: '%@/care/v1.0/content?channel=mobile&contentType=content_bundle&locale=%@&defaultNAT=false&nodeType=site_context&assetType=content_bundle&nodeName=WPP::O6S6IIDIJ&region=%@'
+PharmacyCenterConfiguration:
+    url: '%@/care/v1.0/content?channel=mobile&contentType=content_bundle&locale=%@&defaultNAT=false&nodeType=site_context&assetType=content_bundle&nodeName=WPP::O7NI3SNYJ&region=%@'
+IVVConfigurationAndContent:
+    url: '%@/care/v1.0/content?assetType=content_bundle&channel=mobile&contentType=content_bundle&defaultNAT=true&locale=%@&nodeName=WPP::NWWK198RR&nodeType=site_context&region=%@'
+DMCPhoto:
+    url: '%@/care/v1.0/content?assetType=content_bundle&contentType=content_bundle&locale=%@&channel=mobile&defaultNAT=true&nodeName=WPP::NPT7EB24D&nodeType=site_context&region=%@'
+DMCQR:
+    url: '%@/care/v1.0/content?assetType=content_bundle&contentType=content_bundle&locale=%@&channel=mobile&defaultNAT=true&nodeName=WPP::NTLIBU2GD&nodeType=site_context&region=%@'
+DMCEmail:
+    url: '%@/care/v1.0/content?assetType=dmc_email&contentType=dmc_email&locale=%@&channel=mobile&defaultNAT=true&nodeName=WPP::LDHNSPOQ9&nodeType=site_context&region=%@'
+GetUrgentCare:
+    url: '%@/care/v1.0/content?assetType=contacts&channel=mobile&contentType=contacts&defaultNAT=false&locale=%@&nodeName=WPP::NABD935ZH&nodeType=site_context&region=%@'
+GetAdviceNurse:
+    url: '%@/care/v1.0/content?assetType=contacts&channel=mobile&contentType=contacts&defaultNAT=false&locale=%@&nodeName=WPP::NABDG6426&nodeType=site_context&region=%@'
+FacilityBanner:
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=web&contentType=instructional&defaultNAT=true&locale=%@&nodeName=WPP::MI2JPDDIJ&nodeType=site_context&region=%@'
+Help:
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=web&contentType=help&defaultNAT=true&locale=%@&nodeName=WPP::MI2JH87SX&nodeType=site_context&region=%@'
+PrivacyPolicy:
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=web&contentType=site_policies&defaultNAT=true&locale=%@&nodeName=WPP::L1V7WH7MA&nodeType=site_context&region=%@'
+RiskMitigation1:
+    url: '%@/care/v1.0/content?assetType=embedded_fragment&channel=web&contentType=risk_mitigation&defaultNAT=true&locale=%@&nodeName=WPP::MI2JWFNYJ&nodeType=site_context&region=%@'
+RiskMitigation2:
+    url: '%@/care/v1.0/content?assetType=embedded_fragment&channel=web&contentType=risk_mitigation&defaultNAT=true&locale=%@&nodeName=WPP::MI2MDA4CB&nodeType=site_context&region=%@'
+RiskMitigation3:
+    url: '%@/care/v1.0/content?assetType=embedded_fragment&channel=web&contentType=risk_mitigation&defaultNAT=true&locale=%@&nodeName=WPP::MI2MIOHR6&nodeType=site_context&region=%@'
+'Terms&Conditions':
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=web&contentType=terms_conditions&defaultNAT=true&locale=%@&nodeName=WPP::KZ39WVLZT&nodeType=site_context&region=%@'
+ImportantNotice:
+    url: '%@/care/v1.0/content?assetType=embedded_fragment&channel=web&contentType=announcement&defaultNAT=true&locale=%@&nodeName=WPP::MLS475FTB&nodeType=site_context&region=%@'
+VideoAppointmentFAQ:
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=mobile&contentType=help&defaultNAT=true&locale=%@&nodeName=WPP::NE4KTDOR9&nodeType=site_context&region=%@'
+BreachNotice:
+    url: '%@/care/v1.0/content?assetType=embedded_fragment&channel=web&contentType=announcement&defaultNAT=true&locale=%@&nodeName=WPP::MLS47L7YF&nodeType=site_context&region=%@'
+AllowedMessageContentURLs:
+    url: '%@/care/v1.0/content?assetType=embedded_fragment&channel=mobile&contentType=instructional&defaultNAT=true&locale=%@&nodeName=WPP::NINN6VPK&nodeType=site_context&region=%@'
+SCOStartEvalution:
+    url: '%@/care/v1.0/content?assetType=content_bundle&contentType=content_bundle&locale=%@&channel=mobile&defaultNAT=true&nodeName=WPP::NS0M5GJ4Z&nodeType=site_context&region=%@'
+FindCare:
+    url: '%@/care/v1.0/content?assetType=content_bundle&contentType=content_bundle&locale=%@&channel=mobile&defaultNAT=true&nodeName=WPP::OZRWHRFTB&nodeType=site_context&region=%@'
+TalkWithDoctor:
+    url: '%@/care/v1.0/content?assetType=contacts&channel=mobile&contentType=contacts&defaultNAT=false&locale=%@&nodeName=WPP::OCQWIPO6X&nodeType=site_context&region=%@'
+KPFindCareContentType:
+    url: '%@/care/v1.0/content/OLD?assetType=content_findcare&contentType=content_findcare&locale=%@&channel=mobile&defaultNAT=true&nodeName=WPP::NS0M5GJ4Z&nodeType=site_context&region=%@'
+MBPFAQ:
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=mobile&contentType=help_mobile&defaultNAT=true&locale=%@&nodeName=WPP::O5HSHJJ5U&nodeType=site_context&region=%@'
+MBPLegalInstructions:
+    url: '%@/care/v1.0/content?assetType=content_bundle&channel=mobile&contentType=content_bundle&defaultNAT=true&locale=%@&nodeName=WPP::O5HSG5ACB&nodeType=site_context&region=%@'
+MBPTaC:
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=mobile&contentType=terms_conditions_mobile&defaultNAT=true&locale=%@&nodeName=WPP::O5HSGQJQ2&nodeType=site_context&region=%@'
+NCALVideoVisitInstructions:
+    url: '%@/care/v1.0/content?channel=web&contentType=instructional&locale=%@&defaultNAT=true&nodeType=site_context&assetType=embedded_fragment&region=NCA&nodeName=WPP::MM58GZJE9'
+CreateNewAppointment:
+    url: '%@/care/v1.0/content?assetType=content_bundle&contentType=content_bundle&locale=%@&channel=mobile&defaultNAT=true&nodeName=WPP::OWK32F70C&nodeType=site_context&region=%@'
+'EVisitsTerms&Conditions':
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=mobile&contentType=terms_conditions_mobile&defaultNAT=true&locale=%@&nodeName=WPP::P446IFNYJ&nodeType=site_context&region=%@'
+EVisitsHelp:
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=mobile&contentType=help_mobile&defaultNAT=true&locale=%@&nodeName=WPP::P446G4DIJ&nodeType=site_context&region=%@'
+EVisitsSuccessfullySubmitted:
+    url: '%@/care/v1.0/content?assetType=content_bundle&channel=mobile&contentType=content_bundle&defaultNAT=true&locale=%@&nodeName=WPP::P4IK3MHR6&nodeType=site_context&region=%@'
+KPFDDisclaimerContent:
+    url: '%@/care/v1.0/content?assetType=ancillary&channel=mobile&contentType=informational_mobile&locale=%@&nodeName=WPP::P446AD7SX&nodeType=site_context&defaultNAT=true&region=%@'
+KPFDWebBrowserContent:
+    url: '%@/care/v1.0/content?assetFormat=json&assetType=content_bundle&channel=mobile&contentType=content_bundle&locale=%@&nodeName=WPP::OYV0B5DJB&nodeType=site_context&defaultNAT=false&region=%@'
+
