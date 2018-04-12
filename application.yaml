@@ -1,9 +1,6 @@
-{  
-   "pharmacyConfig":" /bin/kporg/service/common/labels.%s.%s.mobile-pharmacy-configuration.json",
-   "pharmacyContent":" /bin/kporg/service/common/labels.%s.%s.mobile-pharmacy-content.json",
-   "mobileBillPayHelp":"/content-fragments/documents/mobile/medical-bills/help",
-   "mobileBillPaytermCondition":"/content-fragments/documents/mobile/medical-bills/termsconditons",
-   "termsConditionsVersion":"https://healthy.kaiserpermanente.org/termsconditions.version.json",
-   "findDoctor":"<URL>",
-   "newModule":"<URL>"
-}
+pharmacyConfig: /bin/kporg/service/common/labels.%s.%s.mobile-pharmacy-configuration.json
+pharmacyContent: /bin/kporg/service/common/labels.%s.%s.mobile-pharmacy-content.json
+mobileBillPayHelp: /content-fragments/documents/mobile/medical-bills/help
+mobileBillPaytermCondition: /content-fragments/documents/mobile/medical-bills/termsconditons
+findDoctor: '<URL>'
+newModule: '<URL>'
