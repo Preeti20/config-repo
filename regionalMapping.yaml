@@ -1,13 +1,14 @@
-{
-   "regionsMapping": {
-      "CCO": "colorado-denver-boulder-mountain-northern",
-      "SCO": "southern-colorado",
-      "NCA": "northern-california",
-      "SCA": "southern-california",
-      "GA": "georgia",
-      "HI": "hawaii",
-      "MID": "maryland-virginia-washington-dc",
-      "NW": "oregon-washington",
-      "NAT": "national"
-   }
-}
+---
+regionsMapping:
+  CCO: colorado-denver-boulder-mountain-northern
+  SCO: southern-colorado
+  NCA: northern-california
+  SCA: southern-california
+  GA: georgia
+  HI: hawaii
+  MID: maryland-virginia-washington-dc
+  NW: oregon-washington
+  NAT: national
+genericFeatures:
+- findDoctor
+- newModule
