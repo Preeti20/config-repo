@@ -9,5 +9,6 @@
       "MID": "maryland-virginia-washington-dc",
       "NW": "oregon-washington",
       "NAT": "national"
-   }
+   },
+   "genericFeatures":["findDoctor", "newModule"]
 }
