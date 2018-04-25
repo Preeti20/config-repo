@@ -2,5 +2,5 @@ pharmacyConfig: /bin/kporg/service/common/labels.%s.%s.mobile-pharmacy-configura
 pharmacyContent: /bin/kporg/service/common/labels.%s.%s.mobile-pharmacy-content.json
 mobileBillPayHelp: /content-fragments/documents/mobile/medical-bills/help
 mobileBillPaytermCondition: /content-fragments/documents/mobile/medical-bills/termsconditons
-findDoctor: '<URL123>'
+findDoctor: '<URL>'
 newModule: '<URL>'
