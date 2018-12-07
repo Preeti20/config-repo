@@ -1,1 +1,16 @@
-testURL1: http://googleUPDATE123.com
+KPFDWebBrowserContent: /bin/kporg/service/common/labels.%s.%s.find-a-doctor.json
+PharmacyCenter: /bin/kporg/service/common/labels.%s.%s.mobile-pharmacy-content.json
+PharmacyCenterConfiguration: /bin/kporg/service/common/labels.%s.%s.mobile-pharmacy-configuration.json
+FindCare: /bin/kporg/service/common/labels.%s.%s.find-care-422.json
+IVVConfigurationAndContent: /bin/kporg/service/common/labels.%s.%s.vv-configuration-and-content.json
+DMCQR: /bin/kporg/service/common/labels.%s.%s.dmc-qr.json
+DMCEmail: /bin/kporg/service/common/labels.%s.%s.dmc-email.json
+DMCPhoto: /bin/kporg/service/common/labels.%s.%s.dmc-update-photo-days.json
+MBPLegalInstructions: /bin/kporg/service/common/labels.%s.%s.mbp-legal-instructions.json
+CreateNewAppointment: /bin/kporg/service/common/labels.%s.%s.appointment-picker.json
+EVisitsSuccessfullySubmitted: /bin/kporg/service/common/labels.%s.%s.e-visits-success.json
+ChatWithDoctorIntermediateScreenContent: /bin/kporg/service/common/labels.%s.%s.chat-with-doctor.json
+ChatWithDoctorTimingConfiguration: /bin/kporg/service/common/labels.%s.%s.chat-with-doctor-configuration.json
+TalkWithDoctor: /bin/kporg/service/common/labels.%s.%s.talk-with-doctor.json
+GetAdviceNurse: /bin/kporg/service/common/labels.%s.%s.get-advice-nurse.json
+MBPTaCVersion: /bin/kporg/service/common/labels.%s.%s.MBPTaC.json
